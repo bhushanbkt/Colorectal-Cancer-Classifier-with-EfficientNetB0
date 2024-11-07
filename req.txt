@@ -1,0 +1,6 @@
+streamlit
+tensorflow==2.10.0
+h5py 
+protobuf
+altair==4
+pillow
