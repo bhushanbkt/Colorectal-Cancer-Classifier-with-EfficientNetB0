@@ -1,7 +1,5 @@
-## Colorectal Cancer Classifier with EfficientNetB0
-This project uses a deep learning model based on EfficientNetB0 to classify colorectal cancer images into various stages, such as low-grade intraepithelial neoplasia (IN), adenocarcinoma, and polyp, as well as normal tissue. Built with TensorFlow and deployed using Streamlit, this tool provides predictions along with educational insights on each cancer type and recommendations for precautionary steps.
-
-'Project Overview'
+Colorectal Cancer Classifier with EfficientNetB0
+This project utilizes a deep learning model based on EfficientNetB0 to classify colorectal cancer images into various stages, including low-grade intraepithelial neoplasia (IN), adenocarcinoma, and polyps, as well as normal tissue. Built with TensorFlow and deployed using Streamlit, this tool provides predictions along with educational insights on each cancer type and precautionary recommendations.
 
 Key Features
 Model Architecture: EfficientNetB0, adapted with additional layers for classification.
@@ -13,21 +11,15 @@ The model is trained on the Colorectal Cancer WSI dataset from Kaggle. This data
 
 Novelty
 Dual Prediction Confidence Display: The interface shows the model's top prediction and a secondary probable class with their confidence scores.
-Informative Insights: Each predicted class is accompanied by descriptions of the condition and precautions that users can take, which adds a layer of usability and education to the tool.
-
-
+Informative Insights: Each predicted class is accompanied by descriptions of the condition and precautions that users can take, adding a layer of usability and education to the tool.
 Project Workflow
-Data Collection and Preprocessing:
-
+1. Data Collection and Preprocessing
 Dataset: Colorectal Cancer WSI dataset from Kaggle.
-
 Preprocessing: Images are resized, normalized, and prepared for model input.
-Model Training:
-
+2. Model Training
 Architecture: EfficientNetB0 base with additional layers for the 6-class classification.
 Output Layer: 6 classes, each representing a stage or type of colorectal tissue.
-Deployment with Streamlit:
-
+3. Deployment with Streamlit
 Model Loading: The pre-trained model is loaded into the app.
 Prediction Interface: Users can upload images for classification, view predictions with confidence scores, and learn about each stage.
 Setup and Installation
@@ -60,3 +52,4 @@ Dynamic Confidence Threshold: Allow users to adjust confidence thresholds dynami
 Additional Visual Aids: Incorporate more images and visual explanations for each class type.
 Acknowledgments
 Special thanks to the creators of the Colorectal Cancer WSI dataset on Kaggle.
+
