@@ -1,18 +1,18 @@
-Colorectal Cancer Classifier with EfficientNetB0
+## Colorectal Cancer Classifier with EfficientNetB0
 This project utilizes a deep learning model based on EfficientNetB0 to classify colorectal cancer images into various stages, including low-grade intraepithelial neoplasia (IN), adenocarcinoma, and polyps, as well as normal tissue. Built with TensorFlow and deployed using Streamlit, this tool provides predictions along with educational insights on each cancer type and precautionary recommendations.
 
-Key Features
+# Key Features
 Model Architecture: EfficientNetB0, adapted with additional layers for classification.
 Classes: Low-grade IN, Adenocarcinoma, High-grade IN, Normal, Polyp, Serrated Adenoma.
 User Interface: Intuitive Streamlit interface for image upload, model prediction, and informative descriptions about each stage.
 Educational Content: Provides detailed information on each cancer stage and relevant precautions, making it useful for both diagnostic assistance and user education.
-Dataset
+# Dataset
 The model is trained on the Colorectal Cancer WSI dataset from Kaggle. This dataset contains labeled images of colorectal cancer tissue, allowing the model to learn to differentiate between various cancerous and non-cancerous stages.
 
 Novelty
 Dual Prediction Confidence Display: The interface shows the model's top prediction and a secondary probable class with their confidence scores.
 Informative Insights: Each predicted class is accompanied by descriptions of the condition and precautions that users can take, adding a layer of usability and education to the tool.
-Project Workflow
+# Project Workflow
 1. Data Collection and Preprocessing
 Dataset: Colorectal Cancer WSI dataset from Kaggle.
 Preprocessing: Images are resized, normalized, and prepared for model input.
@@ -36,9 +36,9 @@ Copy code
 pip install -r requirements.txt
 Run the Application:
 
-bash
+# bash
 Copy code
-streamlit run app.py
+ 'streamlit run app.py'
 Usage
 Upload an Image: Use the upload function in the app to load an image of colorectal tissue.
 Get Predictions: The model will classify the image and provide the most probable class, along with confidence levels.
