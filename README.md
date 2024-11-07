@@ -1,7 +1,8 @@
-Colorectal Cancer Classifier with EfficientNetB0
+## Colorectal Cancer Classifier with EfficientNetB0
 This project uses a deep learning model based on EfficientNetB0 to classify colorectal cancer images into various stages, such as low-grade intraepithelial neoplasia (IN), adenocarcinoma, and polyp, as well as normal tissue. Built with TensorFlow and deployed using Streamlit, this tool provides predictions along with educational insights on each cancer type and recommendations for precautionary steps.
 
-Project Overview
+'Project Overview'
+
 Key Features
 Model Architecture: EfficientNetB0, adapted with additional layers for classification.
 Classes: Low-grade IN, Adenocarcinoma, High-grade IN, Normal, Polyp, Serrated Adenoma.
@@ -13,10 +14,13 @@ The model is trained on the Colorectal Cancer WSI dataset from Kaggle. This data
 Novelty
 Dual Prediction Confidence Display: The interface shows the model's top prediction and a secondary probable class with their confidence scores.
 Informative Insights: Each predicted class is accompanied by descriptions of the condition and precautions that users can take, which adds a layer of usability and education to the tool.
+
+
 Project Workflow
 Data Collection and Preprocessing:
 
 Dataset: Colorectal Cancer WSI dataset from Kaggle.
+
 Preprocessing: Images are resized, normalized, and prepared for model input.
 Model Training:
 
